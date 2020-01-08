@@ -1,0 +1,70 @@
+.clear{
+	clear: both;
+	display: block;
+}
+.config-form{
+	width: 100%;
+	height: 800px;
+}
+.config-form .config-form-left{
+	width: 25%;
+	float: left;
+	padding:  0px 10px;
+}
+.config-form .config-form-right{
+	width: 75%;
+	float: right;
+	padding:  0px 10px;
+}
+.config-form .config-form-right .form-row .item{
+	color: #fff;
+	border-radius: 20%;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	padding: 8px 0px;
+}
+.config-form .config-form-right form{
+	/* background-color: #E73535;
+	border-top: 5px solid #d2d6de; */
+}
+.config-form .config-form-right .form-row .box-btn-item{
+	margin: 10px 0px;
+	margin-left: 30%;
+	/* display: none; */
+}
+.config-form .config-form-right .form-row .btn-item{
+	color: #fff;
+	height: 30px;
+	width: 100px;
+	border-radius: 7px;
+}
+.config-form .config-form-right .form-row .save{
+	background-color: #449d44;
+	border:  1px solid #449d44;
+}
+.config-form .config-form-right .form-row .cancel{
+	background-color: #EA0E1E;
+	border:  1px solid #EA0E1E;
+}
+.config-form .config-form-right .form-row .item.edit{
+	background-color: #f39c12;
+	border: 1px solid #f39c12;
+}
+.config-form .config-form-right .form-row .item.delete{
+	background-color: #dd4b39;
+	border: 1px solid #dd4b39;
+}
+.config-form .config-form-right .form-row .description{
+	text-transform: uppercase;
+	font-weight:bold;
+}
+.config-form .config-form-right .form-row .value::after{
+	content: ")";
+}
+.config-form .config-form-right .form-row .value::before{
+	content: "(";
+}
+.config-form .config-form-right .form-row .form-group.col-md-12 textarea{
+	width: 100%;
+}
